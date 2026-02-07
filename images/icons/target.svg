@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="targetGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd4b8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b8d4ff;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Target bullseye icon -->
+  <circle cx="32" cy="32" r="24" fill="none" stroke="url(#targetGrad)" stroke-width="2"/>
+  <circle cx="32" cy="32" r="16" fill="none" stroke="url(#targetGrad)" stroke-width="2"/>
+  <circle cx="32" cy="32" r="8" fill="url(#targetGrad)"/>
+  <path d="M 48 16 L 36 28 L 32 32" fill="none" stroke="url(#targetGrad)" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="48,12 52,16 48,20" fill="url(#targetGrad)"/>
+</svg>

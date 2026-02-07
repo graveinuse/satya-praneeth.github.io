@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="mlGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd4b8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d4c5f9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Neural network icon -->
+  <circle cx="12" cy="16" r="4" fill="url(#mlGrad)"/>
+  <circle cx="12" cy="32" r="4" fill="url(#mlGrad)"/>
+  <circle cx="12" cy="48" r="4" fill="url(#mlGrad)"/>
+  <circle cx="32" cy="24" r="4" fill="url(#mlGrad)"/>
+  <circle cx="32" cy="40" r="4" fill="url(#mlGrad)"/>
+  <circle cx="52" cy="32" r="4" fill="url(#mlGrad)"/>
+  <line x1="16" y1="16" x2="28" y2="24" stroke="url(#mlGrad)" stroke-width="2"/>
+  <line x1="16" y1="32" x2="28" y2="24" stroke="url(#mlGrad)" stroke-width="2"/>
+  <line x1="16" y1="32" x2="28" y2="40" stroke="url(#mlGrad)" stroke-width="2"/>
+  <line x1="16" y1="48" x2="28" y2="40" stroke="url(#mlGrad)" stroke-width="2"/>
+  <line x1="36" y1="24" x2="48" y2="32" stroke="url(#mlGrad)" stroke-width="2"/>
+  <line x1="36" y1="40" x2="48" y2="32" stroke="url(#mlGrad)" stroke-width="2"/>
+</svg>

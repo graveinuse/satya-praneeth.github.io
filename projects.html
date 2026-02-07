@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Satya Praneeth Mallipam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">SPM</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Projects</h1>
+            <p>Building data-driven solutions with real-world impact</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section">
+        <div class="container">
+            <!-- Featured Project: BFPS -->
+            <div class="project-detail featured-project">
+                <div class="project-badge">⭐ Featured Project</div>
+                <h2>Business Feasibility Prediction System (BFPS)</h2>
+                <p class="project-subtitle">A comprehensive ML system for predicting small-business success</p>
+
+                <div class="project-overview">
+                    <p>The Business Feasibility Prediction System is a large-scale machine learning platform that
+                        predicts the success of small businesses using multi-source data integration and advanced
+                        predictive modeling. The system achieves <strong>89% accuracy</strong> in success classification
+                        and provides actionable insights for business planning.</p>
+                </div>
+
+                <div class="project-sections">
+                    <div class="project-subsection">
+                        <h3><img src="images/icons/data-science.svg" alt="Data" class="icon-inline"> Data Sources</h3>
+                        <ul>
+                            <li><strong>U.S. Census ACS</strong> - Demographic and economic data</li>
+                            <li><strong>Bureau of Labor Statistics (BLS)</strong> - Employment and wage statistics</li>
+                            <li><strong>NOAA Climate Data</strong> - Weather patterns and seasonal trends</li>
+                            <li><strong>Yelp Business + Review Data</strong> - Business performance and customer
+                                sentiment</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-subsection">
+                        <h3><img src="images/icons/engineering.svg" alt="Engineering" class="icon-inline"> System Components</h3>
+
+                        <div class="component-card">
+                            <h4>Data Pipeline (ETL)</h4>
+                            <p>Automated extraction, transformation, and loading of data from multiple sources. Handles
+                                data cleaning, normalization, and integration of heterogeneous datasets.</p>
+                            <div class="tech-tags">
+                                <span>Python</span>
+                                <span>Pandas</span>
+                                <span>API Integration</span>
+                                <span>Data Cleaning</span>
+                            </div>
+                        </div>
+
+                        <div class="component-card">
+                            <h4>Feature Store</h4>
+                            <p>Centralized repository for engineered features including demographic indicators, economic
+                                metrics, climate patterns, and business performance indicators.</p>
+                            <div class="tech-tags">
+                                <span>Feature Engineering</span>
+                                <span>SQLite</span>
+                                <span>Data Versioning</span>
+                            </div>
+                        </div>
+
+                        <div class="component-card">
+                            <h4>ML Models</h4>
+                            <p>Multi-model ensemble approach combining classification, regression, and time-series
+                                forecasting:</p>
+                            <ul>
+                                <li><strong>XGBoost Classifier</strong> - Success prediction (89% accuracy)</li>
+                                <li><strong>Regression Models</strong> - ROI and payback period estimation</li>
+                                <li><strong>Time-Series Analysis</strong> - Seasonality detection and forecasting</li>
+                            </ul>
+                            <div class="tech-tags">
+                                <span>XGBoost</span>
+                                <span>Scikit-learn</span>
+                                <span>Hyperparameter Tuning</span>
+                                <span>Cross-Validation</span>
+                            </div>
+                        </div>
+
+                        <div class="component-card">
+                            <h4>Dashboard</h4>
+                            <p>Interactive visualization platform for exploring predictions and insights. Provides
+                                business owners with actionable recommendations.</p>
+                            <div class="tech-tags">
+                                <span>Tableau</span>
+                                <span>React</span>
+                                <span>D3.js</span>
+                                <span>Interactive Viz</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-subsection">
+                        <h3><img src="images/icons/target.svg" alt="Target" class="icon-inline"> Key Predictions</h3>
+                        <div class="predictions-grid">
+                            <div class="prediction-card">
+                                <div class="prediction-icon">✅</div>
+                                <h4>Success Classification</h4>
+                                <p class="accuracy">89% Accuracy</p>
+                                <p>Binary prediction of business success/failure</p>
+                            </div>
+                            <div class="prediction-card">
+                                <div class="prediction-icon">💰</div>
+                                <h4>ROI Estimation</h4>
+                                <p>Return on investment forecasting</p>
+                            </div>
+                            <div class="prediction-card">
+                                <div class="prediction-icon">⏱️</div>
+                                <h4>Payback Period</h4>
+                                <p>Time to break-even analysis</p>
+                            </div>
+                            <div class="prediction-card">
+                                <div class="prediction-icon">📅</div>
+                                <h4>Seasonality Analysis</h4>
+                                <p>Seasonal trend identification</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Other Projects -->
+            <h2 class="section-title">Other Projects</h2>
+
+            <div class="projects-grid-alt">
+                <div class="project-card-alt">
+                    <div class="project-header">
+                        <h3>Machine Learning for Premature Birth Prediction</h3>
+                        <span class="badge">Published Research</span>
+                    </div>
+                    <p>Developed a deep learning model using <strong>MobileNetV2</strong> architecture for predicting
+                        premature births based on medical imaging data. Published in Springer Lecture Notes in Networks
+                        and Systems (LNNS) 2024.</p>
+                    <div class="project-highlights">
+                        <h4>Key Achievements:</h4>
+                        <ul>
+                            <li>Implemented transfer learning with MobileNetV2</li>
+                            <li>Achieved high prediction accuracy on medical image dataset</li>
+                            <li>Published in peer-reviewed international conference</li>
+                        </ul>
+                    </div>
+                    <div class="tech-tags">
+                        <span>Python</span>
+                        <span>TensorFlow</span>
+                        <span>MobileNetV2</span>
+                        <span>CNN</span>
+                        <span>Medical Imaging</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="publications.html" class="btn btn-small">View Publication →</a>
+                    </div>
+                </div>
+
+                <div class="project-card-alt">
+                    <div class="project-header">
+                        <h3>D3.js Mutual Funds Dashboard</h3>
+                        <span class="badge">Data Visualization</span>
+                    </div>
+                    <p>Created an interactive visualization dashboard for analyzing mutual fund performance using D3.js.
+                        Features dynamic filtering, comparative analysis, and real-time performance metrics.</p>
+                    <div class="project-highlights">
+                        <h4>Features:</h4>
+                        <ul>
+                            <li>Interactive charts with drill-down capabilities</li>
+                            <li>Multi-dimensional filtering system</li>
+                            <li>Performance comparison tools</li>
+                            <li>Responsive design for all devices</li>
+                        </ul>
+                    </div>
+                    <div class="tech-tags">
+                        <span>D3.js</span>
+                        <span>JavaScript</span>
+                        <span>HTML/CSS</span>
+                        <span>Data Viz</span>
+                    </div>
+                </div>
+
+                <div class="project-card-alt">
+                    <div class="project-header">
+                        <h3>Information Visualization Project Dashboard</h3>
+                        <span class="badge">Academic Project</span>
+                    </div>
+                    <p>Comprehensive visualization project combining Tableau and HTML-based interactive visualizations.
+                        Explores complex datasets through multiple visualization techniques.</p>
+                    <div class="project-highlights">
+                        <h4>Components:</h4>
+                        <ul>
+                            <li>Tableau dashboards with advanced analytics</li>
+                            <li>Custom HTML/CSS/JavaScript visualizations</li>
+                            <li>Multi-view coordinated displays</li>
+                            <li>Interactive storytelling elements</li>
+                        </ul>
+                    </div>
+                    <div class="tech-tags">
+                        <span>Tableau</span>
+                        <span>HTML/CSS</span>
+                        <span>JavaScript</span>
+                        <span>Data Analysis</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://web.cs.kent.edu/~tbandila/IVwebpage.html" target="_blank"
+                            class="btn btn-small">View Live Demo →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Satya Praneeth Mallipam</h3>
+                    <p>Data Scientist | Machine Learning Engineer</p>
+                    <p>Kent, Ohio, USA</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="publications.html">Publications</a></li>
+                        <li><a href="skills.html">Skills</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:smallipa@kent.edu">smallipa@kent.edu</a></li>
+                        <li><a href="tel:+12342963979">(234) 296-3979</a></li>
+                        <li><a href="contact.html">Contact Form</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Satya Praneeth Mallipam. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

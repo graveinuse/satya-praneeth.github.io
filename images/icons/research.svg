@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="researchGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4c5f9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffd4b8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Document with pen icon -->
+  <rect x="14" y="8" width="36" height="48" rx="3" fill="none" stroke="url(#researchGrad)" stroke-width="2"/>
+  <line x1="20" y1="18" x2="44" y2="18" stroke="url(#researchGrad)" stroke-width="2" stroke-linecap="round"/>
+  <line x1="20" y1="26" x2="44" y2="26" stroke="url(#researchGrad)" stroke-width="2" stroke-linecap="round"/>
+  <line x1="20" y1="34" x2="38" y2="34" stroke="url(#researchGrad)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 42 38 L 48 44 L 46 46 L 40 40 Z" fill="url(#researchGrad)"/>
+  <line x1="48" y1="44" x2="52" y2="48" stroke="url(#researchGrad)" stroke-width="2" stroke-linecap="round"/>
+</svg>
